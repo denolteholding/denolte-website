@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://noltedennis@github.com/dnolteholding/dnolteholding.github.io.git
+	branch = master
