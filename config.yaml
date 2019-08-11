@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
+baseURL: https://dnolteholding.github.io/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: denolte Holding
 theme: hugo-fresh
 
 params:
