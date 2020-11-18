@@ -1,6 +1,6 @@
-baseURL: https://dnolteholding.github.io/
+baseURL: https://denolteholding.github.io/
 languageCode: en-us
-title: denolte Holding
+title: Welcome at denolte - The website of Dennis Nolte
 theme: hugo-fresh
 
 params:
