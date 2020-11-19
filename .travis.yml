@@ -15,6 +15,13 @@ script:
   - hugo version # prints the Hugo version, just in case.
   - hugo # build the website
 
+deploy:
+  - provider: script
+    script: bash deploy.sh
+    skip_cleanup: true
+    on:
+      branch: master
+
 env:
   global:
     - PRODUCTION=true
