@@ -14,7 +14,7 @@ organizations:
   url: "https://www.uni-paderborn.de/en/university/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a student who is interested in Big Data, Cloud Technologies and various software development topics.
 
 interests:
 - Big Data
@@ -35,15 +35,24 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/GeorgeCushen
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/noltedennis
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/dennis-nolte/
+- icon: xing
+  icon_pack: fab
+  link: https://www.xing.com/profile/Dennis_Nolte8
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UCY6YK08UvXuGM7JsTEa9MDg
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,6 +72,8 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a student at Paderborn university. Prior, I worked as Consultant supporting the development, operation and scaling of Hadoop-based Big Data infrastructure
+at client site. Nowadays, I am eager to explore new technologies when they come up and am always looking for my next project. Do you have a sidegig that needs to be completed
+professionally and in a timely manner? Feel free to reach out!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+*** DISCLAIMER: THIS SITE IS STILL UNDER CONSTRUCTION **
