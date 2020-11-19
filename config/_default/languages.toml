@@ -5,15 +5,25 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
+[de]
+  languageCode = "de-de"
+  contentDir = "content/de"
+  title = "Hi, ich bin Dennis Nolte"
+#  [de.params]
+#    description = "Site description in German..."
+#  [[de.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
+
+[zh]
+  languageCode = "zh-Hans"
+  contentDir = "content/zh"
+  title = "您好，我叫 Dennis Nolte"
 #  [zh.params]
-#    description = "Site description in Chinese..."
+#   description = "Site description in Chinese..."
 #  [[zh.menu.main]]
 #    name = "Wo"
 #    url = "#about"
