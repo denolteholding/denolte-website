@@ -1,4 +1,7 @@
 [submodule "public"]
 	path = public
-	url = https://noltedennis@github.com/dnolteholding/dnolteholding.github.io.git
+	url = https://github.com/dnolteholding/dnolteholding.github.io.git
 	branch = master
+[submodule "themes/scholar"]
+	path = themes/scholar
+	url = https://github.com/denolteholding/scholar.git

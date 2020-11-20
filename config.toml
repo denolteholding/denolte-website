@@ -2,7 +2,7 @@ baseURL = "https://denolte.com/"
 languageCode = "en-us"
 title = "Hi, I am Dennis"
 
-theme = "denolte"
+theme = "scholar"
 
 hasCJKLanguage = true
 
