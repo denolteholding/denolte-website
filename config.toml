@@ -1,0 +1,72 @@
+baseURL = "https://denolte.com/"
+languageCode = "en-us"
+title = "Hi, I am Dennis"
+
+theme = "scholar"
+
+hasCJKLanguage = true
+
+[params]
+logo = "images/header/logo.png"
+
+### ABOUT ###
+username = "denolte"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 10
+  [languages.de]
+    contentDir = "content/de"
+    languageName = "German"
+    weight = 20
+  [languages.zh]
+    contentDir = "content/zh"
+    languageName = "中文"
+    weight = 20
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    pre = "pen-tool"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "Authors"
+    pre = "pen-tool"
+    url = "/authors/"
+    weight = 2
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
