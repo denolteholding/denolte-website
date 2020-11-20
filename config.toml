@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://denolte.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hi, I am Dennis"
 
 theme = "denolte"
 
@@ -8,6 +8,9 @@ hasCJKLanguage = true
 
 [params]
 logo = "images/header/logo.png"
+
+### ABOUT ###
+username = "denolte"
 
 [languages]
   [languages.en]
@@ -39,6 +42,11 @@ logo = "images/header/logo.png"
     pre = "tag"
     url = "/tags/"
     weight = 3
+  [[menu.main]]
+    name = "Authors"
+    pre = "pen-tool"
+    url = "/authors/"
+    weight = 2
 
 [privacy]
   [privacy.disqus]

@@ -1,6 +1,6 @@
 ---
 title: denolte
-date: 2020-11-20T14:31:06+01:00
+date: 2020-11-20T19:04:38+01:00
 draft: true
 
 username: denolte
@@ -29,15 +29,20 @@ education:
 
 # Icons from FontAwesome
 social:
-  - icon: envelope
+  - icon: fa-envelope
+    icon_pack: fas
     link: "#contactform"
-  - icon: linkedin
+  - icon: fa-linkedin
+    icon_pack: fab
     link: "https://linkedin.com"
-  - icon: xing
+  - icon: fa-xing
+    icon_pack: fab
     link: "https://xing.com"
-  - icon: github
+  - icon: fa-github
+    icon_pack: fab
     link: "https://github.com"
-  - icon: youtube
+  - icon: fa-youtube
+    icon_pack: fab
     link: "https://youtube.com"
 
 message: Hi, I am John Doe.
