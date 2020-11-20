@@ -1,9 +1,9 @@
 ---
-title: {{ .Name }}
-date: {{ .Date }}
+title: denolte
+date: 2020-11-20T14:31:06+01:00
 draft: true
 
-username: {{ .Name }}
+username: denolte
 
 name: John Doe
 picture: "images/author.jpg"
