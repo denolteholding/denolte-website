@@ -13,6 +13,7 @@ git clone -b master https://github.com/denolteholding/dnolteholding.github.io.gi
 rsync -av --delete --exclude ".git" public/ deployment
 cd deployment
 git add -A
+git status
 # we need the || true, as sometimes you do not have any content changes
 # and git woundn't commit and you don't want to break the CI because of that
 git commit -m "Rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
