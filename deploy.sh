@@ -7,12 +7,18 @@ git config --global credential.helper store
 git config --global user.email "dnolte-holding-travis@users.noreply.github.com"
 git config --global user.name "dnolte-holding-travis"
 git config --global push.default simple
-
+ls- ltR
 rm -rf deployment
 git clone -b master https://github.com/denolteholding/dnolteholding.github.io.git deployment
+ls -ltR
+git status
 rsync -av --delete --exclude ".git" public/ deployment
+ls -ltR
+git status
 cd deployment
 git add -A
+ls -ltR ../
+git status
 # we need the || true, as sometimes you do not have any content changes
 # and git woundn't commit and you don't want to break the CI because of that
 git commit -m "Rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
