@@ -9,21 +9,22 @@ git config --global user.name "dnolte-holding-travis"
 git config --global push.default simple
 
 # Current dir is build root (with "build" directory containg the fresh build)
-ls -l .
-ls -l ..
-ls -l ../..
 
 # Prepare deployment directory (separate git repo)
 git clone -b master https://github.com/denolteholding/denolteholding.github.io.git deployment
 
 # Copy all files from build into the deployment directory
-ls -l
+ls -l deployment
 rsync -av --exclude ".git" ./build/ deployment
 
 # Perform GIT push ("|| true" for no content changes)
 cd deployment
+ls -l
+git status
 git add -A
+git status
 git commit -m "Rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+git status
 git push
 cd ..
 
