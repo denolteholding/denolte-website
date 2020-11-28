@@ -9,6 +9,9 @@ git config --global user.name "dnolte-holding-travis"
 git config --global push.default simple
 
 # Current dir is build root (with "build" directory containg the fresh build)
+ls -l .
+ls -l ..
+ls -l ../..
 
 # Prepare deployment directory (separate git repo)
 git clone -b master https://github.com/denolteholding/denolteholding.github.io.git deployment
