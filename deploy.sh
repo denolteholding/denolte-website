@@ -7,7 +7,7 @@ git config --global credential.helper store
 git config --global user.email "dnolte-holding-travis@users.noreply.github.com"
 git config --global user.name "dnolte-holding-travis"
 git config --global push.default simple
-ls- ltR
+ls -ltR
 rm -rf deployment
 git clone -b master https://github.com/denolteholding/dnolteholding.github.io.git deployment
 ls -ltR
