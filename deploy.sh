@@ -14,7 +14,8 @@ git config --global push.default simple
 git clone -b master https://github.com/denolteholding/denolteholding.github.io.git deployment
 
 # Copy all files from build into the deployment directory
-rsync -av --exclude ".git" build/ deployment
+ls -l
+rsync -av --exclude ".git" ./build/ deployment
 
 # Perform GIT push ("|| true" for no content changes)
 cd deployment
