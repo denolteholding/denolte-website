@@ -6,6 +6,7 @@ hasCJKLanguage = true
 
 [params]
 logo = "images/header/logo.png"
+copyright_holder = "Dennis Nolte"
 
 ### ABOUT ###
 username = "denolte"
