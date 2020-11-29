@@ -2,8 +2,6 @@ baseURL = "https://denolte.com/"
 languageCode = "en-us"
 title = "Hi, I am Dennis"
 
-theme = "scholar"
-
 hasCJKLanguage = true
 
 [params]
@@ -11,6 +9,11 @@ logo = "images/header/logo.png"
 
 ### ABOUT ###
 username = "denolte"
+
+[module]
+  [[module.imports]]
+    path = "github.com/denolteholding/scholar"
+    disable=false
 
 [languages]
   [languages.en]

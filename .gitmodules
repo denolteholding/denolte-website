@@ -2,6 +2,3 @@
 	path = public
 	url = https://github.com/dnolteholding/dnolteholding.github.io.git
 	branch = master
-[submodule "themes/scholar"]
-	path = themes/scholar
-	url = https://github.com/denolteholding/scholar.git
