@@ -1,6 +1,4 @@
-github.com/denolteholding/scholar v0.0.0-20201120184138-f45d01487deb h1:S/yF1HT3QRDC00LgD9ibciDcpLlVOttbQA3CUEPV0vA=
-github.com/denolteholding/scholar v0.0.0-20201120184138-f45d01487deb/go.mod h1:VUjetpUVIleOmXSrvM8059BuApkJ6b6xYdPrF36xDDg=
-github.com/denolteholding/scholar v0.0.0-20201129082409-4a58897bd4d2 h1:BmT6jKOGpgjxcrLVDwWa+ZHebdZm9Gr4z50B50HEODM=
-github.com/denolteholding/scholar v0.0.0-20201129082409-4a58897bd4d2/go.mod h1:VUjetpUVIleOmXSrvM8059BuApkJ6b6xYdPrF36xDDg=
-github.com/yihui/hugo-xmin v0.0.0-20201016020520-4100270f6fe5 h1:Lfn6z15yfxX1bvD6gNtPFXa8rkkOXmw3S05Ed7NJ6cw=
-github.com/yihui/hugo-xmin v0.0.0-20201016020520-4100270f6fe5/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
+github.com/denolteholding/hugo-mod-bootstrap-scss-js-v5 v0.0.0-20201130231609-8d233d4198c4/go.mod h1:QMAiosLFncFKVowAmfM9a9bfGGZXkaL//aHtfEYm3xI=
+github.com/denolteholding/scholar v0.0.0-20201130231933-1fce470c3e66 h1:hZnwDJeLoFzQrH9qPs+YWhLByBEEVqlAmfgeNfJ/izM=
+github.com/denolteholding/scholar v0.0.0-20201130231933-1fce470c3e66/go.mod h1:Rfc/ZFaQ9vg4qMQZ7djwelxkQOEXobhoKcMXqvaKVoY=
+github.com/twbs/bootstrap v5.0.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

@@ -1,7 +1,8 @@
 # IDEs
-.idea/
-.vscode/
+/.idea
+/.vscode
 
 # Hugo
-/resources/
-public/
+/resources
+/public
+/_vendor
