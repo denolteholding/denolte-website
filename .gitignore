@@ -6,3 +6,6 @@
 /resources
 /public
 /_vendor
+
+# NPM
+/node_modules

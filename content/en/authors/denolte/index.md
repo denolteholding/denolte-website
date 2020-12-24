@@ -5,7 +5,7 @@ draft: true
 
 username: denolte
 
-name: John Doe
+name: Dennis Nolte
 picture: "images/author.jpg"
 
 role: Student
