@@ -2,15 +2,29 @@ baseURL = "https://denolte.com/"
 languageCode = "en-us"
 title = "Hi, I am Dennis"
 
-theme = "scholar"
-
 hasCJKLanguage = true
 
 [params]
 logo = "images/header/logo.png"
+copyright_holder = "Dennis Nolte"
+
+[params.design]
+primary_color = "#ff6300"
+
+### The contact form is implemented via un-static
+[params.contact]
+enabled = true
+form_endpoint = "https://forms.un-static.com/forms/3b62f6e97bcd69821661a869b0674cea64ff4037"
 
 ### ABOUT ###
+[params.about]
+enabled = true
 username = "denolte"
+
+[module]
+  [[module.imports]]
+    path = "github.com/denolteholding/scholar"
+    disable=false
 
 [languages]
   [languages.en]
@@ -42,11 +56,6 @@ username = "denolte"
     pre = "tag"
     url = "/tags/"
     weight = 3
-  [[menu.main]]
-    name = "Authors"
-    pre = "pen-tool"
-    url = "/authors/"
-    weight = 2
 
 [privacy]
   [privacy.disqus]

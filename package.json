@@ -1,0 +1,24 @@
+{
+  "name": "denolte-website",
+  "version": "1.0.0",
+  "description": "This repository holds the generator files for the public website denolte.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denolteholding/denolte-website.git"
+  },
+  "author": "Dennis Nolte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denolteholding/denolte-website/issues"
+  },
+  "homepage": "https://github.com/denolteholding/denolte-website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
