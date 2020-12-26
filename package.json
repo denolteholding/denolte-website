@@ -1,24 +1,24 @@
 {
-  "name": "denolte-website",
-  "version": "1.0.0",
-  "description": "This repository holds the generator files for the public website denolte.com.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/denolteholding/denolte-website.git"
-  },
-  "author": "Dennis Nolte",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/denolteholding/denolte-website/issues"
-  },
-  "homepage": "https://github.com/denolteholding/denolte-website#readme",
-  "dependencies": {
-    "autoprefixer": "^10.1.0",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2"
+ "comments": {
+  "dependencies": {},
+  "devDependencies": {
+   "@tailwindcss/typography": "github.com/denolteholding/scholar",
+   "autoprefixer": "github.com/denolteholding/scholar",
+   "postcss": "github.com/denolteholding/scholar",
+   "postcss-cli": "github.com/denolteholding/scholar",
+   "postcss-purgecss": "github.com/denolteholding/scholar",
+   "tailwindcss": "github.com/denolteholding/scholar"
   }
+ },
+ "dependencies": {},
+ "devDependencies": {
+  "@tailwindcss/typography": "^0.2.0",
+  "autoprefixer": "~9.7.6",
+  "postcss": "^8.0.9",
+  "postcss-cli": "^8.0.0",
+  "postcss-purgecss": "^2.0.3",
+  "tailwindcss": "^1.8.10"
+ },
+ "name": "denolte-website",
+ "version": "0.1.0"
 }
