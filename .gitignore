@@ -6,6 +6,7 @@
 /resources
 /public
 /_vendor
+hugo_stats.json
 
 # NPM
 /node_modules

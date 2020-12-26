@@ -4,6 +4,10 @@ title = "Hi, I am Dennis"
 
 hasCJKLanguage = true
 
+[build]
+# Used by PurgeCSS
+writeStats = true
+
 [params]
 logo = "images/header/logo.png"
 copyright_holder = "Dennis Nolte"
