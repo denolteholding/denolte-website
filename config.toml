@@ -16,10 +16,9 @@ copyright_holder = "Dennis Nolte"
 [params.design]
 primary_color = "#ff6300"
 
-### The contact form is implemented via un-static
+### The contact form is implemented via Netlify
 [params.contact]
 enabled = true
-form_endpoint = "https://forms.un-static.com/forms/3b62f6e97bcd69821661a869b0674cea64ff4037"
 
 ### ABOUT ###
 [params.about]
