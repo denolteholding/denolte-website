@@ -1,24 +1,24 @@
 {
- "comments": {
-  "dependencies": {},
-  "devDependencies": {
-   "@tailwindcss/typography": "github.com/denolteholding/scholar",
-   "autoprefixer": "github.com/denolteholding/scholar",
-   "postcss": "github.com/denolteholding/scholar",
-   "postcss-cli": "github.com/denolteholding/scholar",
-   "postcss-purgecss": "github.com/denolteholding/scholar",
-   "tailwindcss": "github.com/denolteholding/scholar"
-  }
- },
- "dependencies": {},
- "devDependencies": {
-  "@tailwindcss/typography": "^0.2.0",
-  "autoprefixer": "~9.7.6",
-  "postcss": "^8.0.9",
-  "postcss-cli": "^8.0.0",
-  "postcss-purgecss": "^2.0.3",
-  "tailwindcss": "^1.8.10"
- },
- "name": "denolte-website",
- "version": "0.1.0"
+  "comments": {
+    "dependencies": {
+      "@tailwindcss/typography": "github.com/denolteholding/scholar",
+      "autoprefixer": "github.com/denolteholding/scholar",
+      "postcss": "github.com/denolteholding/scholar",
+      "postcss-cli": "github.com/denolteholding/scholar",
+      "postcss-purgecss": "github.com/denolteholding/scholar",
+      "tailwindcss": "github.com/denolteholding/scholar"
+    },
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "10.0.2",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-purgecss": "^2.0.3",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "name": "denolte-website",
+  "version": "0.1.0"
 }

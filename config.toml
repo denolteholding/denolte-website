@@ -10,6 +10,7 @@ writeStats = true
 
 [params]
 logo = "images/header/logo.png"
+favicon  = "images/favicon.png" 
 copyright_holder = "Dennis Nolte"
 
 [params.design]
