@@ -1,8 +1,8 @@
 module github.com/denolteholding/denolte-website
 
-go 1.15
+go 1.16
 
-require github.com/denolteholding/scholar v0.0.0-20201226125022-3b06e438aa5d // indirect
+require github.com/denolteholding/scholar v0.0.0-20210730200102-b7e12877a097 // indirect
 
 // Local development
 // replace github.com/denolteholding/scholar => ../scholar/
