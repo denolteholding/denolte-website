@@ -1,30 +1,33 @@
 ---
 title: denolte
 date: 2020-11-20T19:04:38+01:00
-draft: true
+draft: false
 
 username: denolte
 
-name: John Doe
+name: Dennis Nolte
 picture: "images/author.jpg"
 
-role: Student
+role: 学生
 
 organizations:
-  - name: 大学
-    url: "www.example.com"
+  - name: Paderborn 大学
+    url: "https://www.uni-paderborn.de/en/"
 
 interests:
-  - Programming
-  - Coding
+  - 大数据
+  - 量子计算
+  - 电脑建造
+  - 消防员
+  - 跑步
 
 education:
   courses:
-  - course: MSc Computer Science
-    institution: Example university
+  - course: MSc 商业信息学
+    institution: Paderborn 大学
     year: 2020
-  - course: BSc Computer Science
-    institution: Example university
+  - course: BSc 商业信息学
+    institution: FHDW Paderborn
     year: 2017
 
 # Icons from FontAwesome
@@ -34,16 +37,16 @@ social:
     link: "#contactform"
   - icon: fa-linkedin
     icon_pack: fab
-    link: "https://linkedin.com"
+    link: "https://www.linkedin.com/in/dennis-nolte/"
   - icon: fa-xing
     icon_pack: fab
-    link: "https://xing.com"
+    link: "https://www.xing.com/profile/Dennis_Nolte8/cv"
   - icon: fa-github
     icon_pack: fab
-    link: "https://github.com"
+    link: "https://github.com/noltedennis"
   - icon: fa-youtube
     icon_pack: fab
-    link: "https://youtube.com"
+    link: "https://www.youtube.com/channel/UCY6YK08UvXuGM7JsTEa9MDg"
 
-message: 您好， 我叫 Dennis Nolte.
+message: 您好， 我叫 Dennis.
 ---
