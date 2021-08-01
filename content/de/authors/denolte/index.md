@@ -1,30 +1,33 @@
 ---
 title: denolte
 date: 2020-11-20T19:04:38+01:00
-draft: true
+draft: false
 
 username: denolte
 
-name: John Doe
+name: Dennis Nolte
 picture: "images/author.jpg"
 
 role: Student
 
 organizations:
-  - name: Beispieluniversität
-    url: "www.example.com"
+  - name: Universität Paderborn
+    url: "https://www.uni-paderborn.de/"
 
 interests:
-  - Programming
-  - Coding
+  - Big Data Technologiestack
+  - Quantum Computing
+  - Custom PC Bau
+  - Freiwillige Feuerwehr
+  - Laufsport
 
 education:
   courses:
-  - course: MSc Computer Science
-    institution: Example university
+  - course: M.Sc. Wirtschaftsinformatik
+    institution: Universität Paderborn
     year: 2020
-  - course: BSc Computer Science
-    institution: Example university
+  - course: B.Sc. Wirtschaftsinformatik
+    institution: Fachhochschule der Wirtschaft Paderborn
     year: 2017
 
 # Icons from FontAwesome
@@ -34,16 +37,16 @@ social:
     link: "#contactform"
   - icon: fa-linkedin
     icon_pack: fab
-    link: "https://linkedin.com"
+    link: "https://www.linkedin.com/in/dennis-nolte/"
   - icon: fa-xing
     icon_pack: fab
-    link: "https://xing.com"
+    link: "https://www.xing.com/profile/Dennis_Nolte8/cv"
   - icon: fa-github
     icon_pack: fab
-    link: "https://github.com"
+    link: "https://github.com/noltedennis"
   - icon: fa-youtube
     icon_pack: fab
-    link: "https://youtube.com"
+    link: "https://www.youtube.com/channel/UCY6YK08UvXuGM7JsTEa9MDg"
 
-message: Hi, ich bin John Doe.
+message: Hi, ich bin Dennis.
 ---

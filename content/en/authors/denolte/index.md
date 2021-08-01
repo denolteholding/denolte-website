@@ -15,8 +15,11 @@ organizations:
     url: "https://www.uni-paderborn.de/en/"
 
 interests:
-  - Programming
-  - Coding
+  - Big Data technologies
+  - Quantum Computing
+  - Custom pc building
+  - Member of the local fire brigade
+  - Running
 
 education:
   courses:
@@ -45,5 +48,5 @@ social:
     icon_pack: fab
     link: "https://www.youtube.com/channel/UCY6YK08UvXuGM7JsTEa9MDg"
 
-message: Hi, I am Dennis Nolte. I have a background in big data and cloud technologies and currently am on my way to complete a Master's degree in business informatics at Paderborn university. I aim to achieve this by 2023.
+message: Hi, I am Dennis.
 ---
