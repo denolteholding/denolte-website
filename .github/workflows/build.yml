@@ -1,5 +1,9 @@
-name: Build Next.Js web application
-on: push
+name: Build project
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
 jobs:
   build-project:
     name: Build project
