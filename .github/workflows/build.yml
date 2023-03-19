@@ -12,6 +12,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install NPM dependencies
-        run: npm install
+        run: npm ci
       - name: Build project assets
         run: npm run build
+      - name: Publish build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: static-site
+          path: out
+  deploy-project:
+    name: Deploy project
+    runs-on: ubuntu-latest
+    needs: build-project
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: static-site
+      - name: Deploy website
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.server }}
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+          server-dir: ./www/
